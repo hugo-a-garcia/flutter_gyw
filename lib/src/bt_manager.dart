@@ -70,7 +70,9 @@ class GYWBtManager {
       _isScanning = true;
 
       // Get devices that are already connected
-      final connectedDevices = await FlutterBluePlus.systemDevices;
+      final connectedDevices = await FlutterBluePlus.systemDevices([
+        Guid("180a"),
+      ]);
 
       // Add them to the manager list
       for (final BluetoothDevice fbDevice in connectedDevices) {
