@@ -14,8 +14,8 @@ dependencies:
   flutter_blue_plus: ^1.31.4
 
 dev_dependencies:
-  dartdoc: ^6.3.0
-  flutter_lints: ^3.0.1
+  dartdoc: ^8.3.2
+  flutter_lints: ^5.0.0
   flutter_test:
     sdk: flutter
 
